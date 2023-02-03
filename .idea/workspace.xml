@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba185b4e-139e-4b45-a684-33591c9f5bfe" name="Changes" comment="added test for result of bmi calculator" />
+    <list default="true" id="ba185b4e-139e-4b45-a684-33591c9f5bfe" name="Changes" comment="added test for result of bmi calculator">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/thaler/BMICalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/thaler/BMICalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/campus02/thaler/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/campus02/thaler/BMICalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Buildautomatisierung">
+  <component name="RunManager" selected="JUnit.BMICalculatorTest">
     <configuration name="All in Buildautomatisierung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Buildautomatisierung" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Buildautomatisierung" />
         <item itemvalue="JUnit.BMICalculatorTest" />
+        <item itemvalue="JUnit.All in Buildautomatisierung" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675450818320</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added test for result of bmi calculator">
+      <created>1675451056270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675451056270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

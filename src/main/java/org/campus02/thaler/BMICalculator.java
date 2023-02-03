@@ -36,7 +36,7 @@ public class BMICalculator {
         } else if (bmi < 30) {
             return "overweight";
         }else {
-            return "obvious";
+            return "obese";
         }
     }
 }
