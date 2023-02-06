@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: My first workflow with github actions
+name: My first workflow with github actions-failing example
 
 on:
   push:
