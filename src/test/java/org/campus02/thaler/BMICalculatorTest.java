@@ -8,17 +8,17 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BMICalculatorTest {
-
     private BMICalculator bmiCalculator;
 
     //alt + einf - stup methode
     @BeforeEach
     void setUp() {
+
         bmiCalculator = new BMICalculator(180, 1.8);
     }
 
     @Test
-    @DisplayName("Konsturktor Tester")
+    @DisplayName("Konstruktor Tester")
     void testConstruktor(){
         double expectedWeight = 180;
         Assertions.assertEquals(expectedWeight, bmiCalculator.getWeightInKG());

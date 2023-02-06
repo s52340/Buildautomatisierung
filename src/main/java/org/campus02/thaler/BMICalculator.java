@@ -22,11 +22,15 @@ public class BMICalculator {
         return weightInKG / (heightInMeters * heightInMeters);
     }
 
-    //bmiGrenzen
-    // <18,5 = underweight
-    // 18,5 - 25 normal
-    // 25 - 30 overweight
-    // >30 obese
+    /**
+     * bmi Grenzen
+     * <18,5 = underweight
+     * 18,5 - 25 normal
+     * 25 - 30 overweight
+     * >30 obese
+     *
+     * @return classification
+     */
     public String result (){
         double bmi = calculateBMI();
         if (bmi < 18.5){
